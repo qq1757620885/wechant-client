@@ -1,0 +1,42 @@
+{
+  "pages": [
+
+    "pages/login/login",
+    "pages/register/register",
+    "pages/index/index",
+    "pages/person/personcenter"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#353535",
+    "navigationBarTitleText": "小林子凤飞飞飞",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#888888"
+  },
+  "tabBar": {
+    "selectedColor": "#576b95",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "./images/toobar/image_home_1.png",
+        "selectedIconPath": "./images/toobar/image_home_2.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "./images/toobar/icon_API.png",
+        "selectedIconPath": "./images/toobar/icon_API_HL.png",
+        "text": "学习"
+      },
+      {
+        "pagePath": "pages/person/personcenter",
+        "iconPath": "./images/toobar/image_person_1.png",
+        "selectedIconPath": "./images/toobar/image_person_2.png",
+        "text": "我"
+      }
+    ]
+  },
+    "sitemapLocation": "sitemap.json",
+    "debug": true
+}

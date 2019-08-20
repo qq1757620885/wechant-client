@@ -1,0 +1,31 @@
+.page {
+}
+
+.content {
+  padding: 15rpx;
+  margin: 10rpx;
+}
+
+.section__title {
+  margin: 10rpx;
+  color: black;
+}
+
+.content input {
+  padding: 15rpx;
+  margin: 15rpx;
+  height: 38rpx;
+  border-width: 1rpx;
+  border-style: solid;
+  background-color: #fff;
+  border-radius: 5px;
+  border-color: #d2d2d2;
+}
+
+.btn-area {
+  padding: 15rpx;
+}
+
+.btn-area button {
+  margin: 10rpx;
+}

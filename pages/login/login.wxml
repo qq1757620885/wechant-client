@@ -1,0 +1,23 @@
+<view class="page">
+<view>用户登录</view>
+  <view class="top"></view>
+  <view class="content">
+
+    <form bindsubmit="formSubmit" bindreset="formReset">
+      <view class="section">
+        <view class="section__title">用户名</view>
+        <input name="username" placeholder="请输入账号" />
+      </view>
+    
+      <view class="section">
+        <view class="section__title">密码</view>
+        <input name="password" type="password" placeholder="请输入密码" />
+      </view>
+
+      <view class="btn-area">
+        <button form-type="submit" type='primary' class="loginBtn">登录</button>
+        <button form-type="reset"  class="loginBtn" bindtap="goRegistPage">去注册</button>
+      </view>
+    </form>
+  </view>
+</view>

@@ -22,11 +22,10 @@ Page({
       });
       wx.request({
         url: serverUrl + '/login',
-        method: 'POST',
+        method: 'PUT',
         header: { 'content-type': 'application/json' },// 默认值
         data: { username: username, password: password },
         success: function (res) {
-          console.log(res);
           wx.hideLoading();
           if (res.data.status === 200) {
             wx.showToast({
@@ -36,6 +35,7 @@ Page({
             })
             //将用户信息赋予到全局变量
             app.userInfo = res.data.data;
+            console.log(" app.userInfo=" + app.userInfo);
           } else {
             wx.showToast({
               title: res.data.msg,
@@ -52,8 +52,8 @@ Page({
     }
   },
   formReset: function () {
-    wx.navigateTo({
-      url: '../register/register',
+    wx.navigateBack({
+      url: '../login/login',
     })
   }
 })

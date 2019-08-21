@@ -1,11 +1,9 @@
 {
   "pages": [
-
     "pages/login/login",
     "pages/register/register",
     "pages/index/index",
     "pages/person/personcenter"
-    
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -37,6 +35,6 @@
       }
     ]
   },
-    "sitemapLocation": "sitemap.json",
-    "debug": true
+  "sitemapLocation": "sitemap.json",
+  "debug": true
 }
